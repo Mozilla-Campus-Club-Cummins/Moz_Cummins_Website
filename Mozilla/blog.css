@@ -1,0 +1,46 @@
+/* by- Manasi Deshmukh */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+.news{
+    position: relative;
+}
+.news h1{
+    font-size: 5.2rem;
+    text-align: center;
+    padding-top: 60px;
+}
+.news-cards{
+    display: flex;
+    place-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 450px;
+}
+
+.card{
+    background-color: #FFCB2A;
+    text-align: center;
+    box-shadow: -3px -3px 20px rgb(52, 52, 52),
+    2px 2px 5px rgb(52, 52, 52);    
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.card {
+    padding-top: 90px;
+    font-size: 50px;
+    text-decoration: none;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+.card:hover{
+    background-color: black;
+    box-shadow: -3px -3px 20px #FFCB2A,
+    2px 2px 5px #FFCB2A; 
+    color: white;
+}

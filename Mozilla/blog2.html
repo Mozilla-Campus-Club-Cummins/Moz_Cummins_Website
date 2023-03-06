@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+  <link rel="stylesheet" href="blog2.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script src="https://kit.fontawesome.com/2afbe46fee.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+          <!-- Navbar (sit on top) -->
+          <div class="w3-top" >
+            <!--<div class="w3-bar w3-white w3-card" id="myNavbar">-->
+              <div class="navbar">
+               <div href="#home" class="w3-bar-item w3-button w3-wide" ></div>
+               <!-- Right-sided navbar links -->
+               <img src="images/mozz.png" alt="Table Setting" width="150px" height="38px"></a><div class="w3-right w3-hide-small">
+                 <a href="home.html" class="w3-bar-item w3-button"><i class="fas fa-eject"></i> ABOUT US</a>
+                 <a href="activity.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ACTIVITIES</a>
+                 <a href="home.html#news-card" class="w3-bar-item w3-button"><i class="fa fa-th-large" aria-hidden="true"></i> BLOG</a>
+                 <a href="schedule.html" class="w3-bar-item w3-button"><i class="fas fa-calendar-alt"></i> SCHEDULE</a>
+                 <a href="team.html" class="w3-bar-item w3-button"><i class="fas fa-users"></i> TEAM</a>
+                 <a href="contact.html" class="w3-bar-item w3-button"><i class="fas fa-id-card"></i> CONTACT US</a>
+
+               </div>
+               <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+               <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                 <i class="fa fa-bars"></i>
+               </a>
+             </div>
+           </div>
+
+           <!-- Sidebar on small screens when clicking the menu icon -->
+           <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+             <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+             <a href="home.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+             <a href="activity.html" onclick="w3_close()" class="w3-bar-item w3-button">ACTIVITIES</a>
+             <a href="schedule.html" onclick="w3_close()" class="w3-bar-item w3-button">SCHEDULE</a>
+             <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+             <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+           </nav>
+
+           <div class="contents">
+            <div class="content-box">
+                <h2><b>CONTENTS</b> </h2>
+                <ul >
+                    <li><a href="#documentation">- Documentation</a></li>
+                    <li><a href="#Outreach">- Outreach</a></li>
+                    <li><a href="#Design">- Design</a></li>
+                    <li><a href="#Translation">- Translation</a></li>
+                    <li><a href="#Communitymanagement">- Community management</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    <!-- newsletter  -->
+    <section class="newsletter2">
+        <p class="title"><b> NEWSLETTER 2: Non-technical contributions unleashed!</b></p>
+        <div class="start">
+            Looking to join the open-source community but feeling left out because you're not a coding wizard? Fear not, Mozilla Club's Newsletter - 2 has arrived to guide you on your journey!
+        </div>
+        <p class="p1">
+            <b>O</b>pen-source projects have become increasingly popular over the years, and they are an excellent way to learn new skills, improve existing ones, and contribute to the tech community. However, many people mistakenly believe that open-source projects are only for developers and technical professionals. In reality, there are many ways that non-technical individuals can contribute to open-source projects.
+            <br>
+            Open source offers plenty of exciting opportunities for non-coders to contribute, and the possibilities are as diverse as the colors of a rainbow! From creating user documentation and translating content to designing logos and creating artwork, non-coders have an array of projects to choose from. So, if you're eager to get involved in open source but don't know how to code, fear not, because the possibilities are endless!
+            <br>
+            In this newsletter, we will explore some creative ways in which non-technical individuals can contribute to open-source projects.
+        </p><br>
+        
+        <p class="p2" >
+            
+            <div id="documentation"><br>
+                <b>Documentation</b> <br>
+                One of the most significant challenges in open-source projects is documentation. Many projects lack sufficient documentation, and this can be a significant barrier for new contributors. Non-technical individuals can help by writing and improving documentation. Documentation can include user guides, installation instructions, and troubleshooting guides. By creating clear and concise documentation, you can help make the project more accessible to new users and contributors.
+            </div>
+            
+            <div id="Outreach"><br>
+                <b>Outreach</b><br>
+                Another way to contribute to open-source projects is by helping with outreach efforts. This can include promoting the project on social media, attending conferences and meetups, and speaking to others in your community about the project. Outreach efforts can help raise awareness of the project and attract new contributors. Additionally, outreach efforts can help build a community around the project, which can be beneficial in the long term.
+            </div>
+    
+            
+            <div id="Design"><br>
+                <b>Design</b><br>
+                Design is another area where non-technical individuals can contribute to open-source projects. Open-source projects often lack good design, and this can be a significant barrier for new users. Non-technical individuals with design skills can help by creating or improving the project's logo, website, and other visual assets. Additionally, non-technical individuals can help with user experience testing, which can help improve the overall user experience of the project.
+            </div>
+    
+            <div id="Translation"><br>
+                <b>Translation</b><br>
+                Many open-source projects have users from around the world, and providing documentation and user interface in multiple languages is critical. Non-technical individuals who speak various languages can help with translating documentation, user interface, and other content. Translation efforts can help make the project more accessible to users from different regions and help build a more diverse community.
+            </div>
+    
+            <div id="Communitymanagement"><br>
+                <b>Community management</b><br>
+                Finally, non-technical individuals can help with community management. Community management involves engaging with users and contributors, answering questions, resolving conflicts, and fostering a positive community atmosphere. By actively managing the community, non-technical individuals can help create a welcoming and inclusive environment for new contributors.
+            </div>
+        </p>
+    </section>
+    
+           <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="contact.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <a href="home.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Back To Home Page</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.instagram.com/aicvs/" class="text-light"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/cummins-aicvs/mycompany/" class="text-light"><i class="fab fa-linkedin"></i></a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZfSZGZDtVjPdkFkJqCQJXMjjcqxVrGvJffFvBTRKNPGcmXMlQxctgbpgdCrfKFfjsJCHL" class="text-light"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+      <a href="https://www.twitter.com/aicvs" class="text-light"><i class="fab fa-twitter"></i></a>
+      <a href="https://youtube.com/channel/UCYkmq4s5ciIau6BFI97XJlA" class="text-light"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+  <script src="contact.js"></script>
+  </body>
+ 
+  
+  
+  
+  </html>

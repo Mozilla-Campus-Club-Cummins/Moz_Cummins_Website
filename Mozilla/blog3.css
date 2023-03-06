@@ -1,0 +1,61 @@
+/* by- Manasi Deshmukh */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}   
+
+.contents{
+    z-index: 9;
+    position: fixed;
+    margin-top: 70px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 200px;    
+    height: 100%; 
+    border-width: 2px;
+    border-color: var(--main-color-yellow);
+    background-color: #f0b81e97;
+}
+.contents ul{
+    margin-left: 15px;
+}
+.contents a{
+    color: black;
+}
+.contents h2{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+.contents li{
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.contents a{
+    color: black;
+}
+.contents a:hover{
+    color: blue;
+    font-style: oblique;
+}
+
+footer{
+    margin-left: 200px;
+}
+@media (max-width: 480px){
+    .contents{
+        display: none;
+    }
+
+    .newsletter1{
+        margin: 0;
+    }
+  }
