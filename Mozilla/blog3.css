@@ -1,4 +1,4 @@
-/* by- Manasi Deshmukh */
+/* by- Laxmipuja Biradar*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
@@ -10,7 +10,15 @@
 html{
   scroll-behavior: smooth;
 }   
-
+.newsletter3{
+    margin-left: 200px;
+    padding: 40px;
+}
+.p.p2  a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
 .contents{
     z-index: 9;
     position: fixed;
@@ -59,3 +67,45 @@ footer{
         margin: 0;
     }
   }
+  /* main matter  */
+
+.title{
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;     
+}
+.start{
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.p1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.newsletter2 div{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.newsletter2 div b{
+    font-size: 20px;
+}
+
+footer{
+    margin-left: 200px;
+}
+@media (max-width: 480px){
+    .contents{
+        display: none;
+    }
+
+    .newsletter1{
+        margin: 0;
+    }
+  }
+
+  
